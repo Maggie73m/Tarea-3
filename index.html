@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tarea Maggie</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #8FBC8F;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #FFF0F5;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #8FBC8F;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2> &#128154; PlantitasLovers  &#128154;</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Conocenos</a></li>
+      <li><a href="#">Aprende más</a></li>
+        <li><a href="#">Integrate</a></li>
+      <li><a href="#">Info de contacto</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Sobre nosotrxs</h1>
+    <p>Plantitas lovers es una página que como su nombre lo indica es para amantes de las plantas, para ello hemos creado una comunidad que aporta consejos de cuidados de diversas plantas, asi como para mostrar el crecimiento de sus plantas.</p>
+    <p>Tambien tenemos una comunidad que crea invernaderos dependiento del lugar ¿No hay uno en tu ciudad? ¡Empiezalo tú! </p>
+  </article>
+</section>
+
+<footer>
+  <p>Integrate y forma parte de esta familia que adora a las plantas &#128512;.</p>
+</footer>
+
+</body>
+</html>
